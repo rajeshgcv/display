@@ -1,0 +1,56 @@
+*main{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    height: 1000px;
+    width:1614px;
+    background-color: white;
+    background-size: cover;
+display: flex;
+
+
+}
+.logo{
+    height: 330px;
+    width: 325px;
+    
+    font-size: 50px;
+    color: red;
+}
+.menu {
+    height: 120px;
+    width: 1000px;
+line-height: 120px;
+
+}
+ul li{
+    list-style: none;
+    display: inline-flex;
+    width:170px;
+    font-size: 30px;
+    text-transform: uppercase;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.benz{
+    
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    color: blue;
+}
+.inform{
+    position: absolute;
+    top: 450px;
+    left: 50px;
+    font-family: sans-serif;
+}
+.img1{
+    position: absolute;
+    top: 200px;
+    left: 1200px;
+}
