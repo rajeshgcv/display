@@ -3,11 +3,12 @@
     padding: 0%;
 }
 .main{
-    height: 1000px;
+    height:2500px;
     width:1614px;
     background-color: white;
     background-size: cover;
 display: flex;
+flex-flow: wrap;
 
 
 }
@@ -17,11 +18,14 @@ display: flex;
     
     font-size: 50px;
     color: red;
+
 }
+
 .menu {
     height: 120px;
     width: 1000px;
 line-height: 120px;
+text-align: center;
 
 }
 ul li{
@@ -57,5 +61,29 @@ a{
 
 
 
+
+.img2{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 730px;
+    left: 1000px;
+    border: 2px solid black;
+}
+.informimg2{
+ position: absolute;
+   top:750px;
+left:70px;    
+color: red;
+}
+.informimg-2{
+    position: absolute;
+    top: 800px;
+    left: 100px;
+    font-family: sans-serif;
+}
+.informimg-2:hover{
+    background-color: cadetblue;
+}
 
 
