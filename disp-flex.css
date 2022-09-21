@@ -35,6 +35,11 @@ ul li{
     font-size: 30px;
     text-transform: uppercase;
     
+    
+}
+ul li:hover{
+    text-decoration: underline;
+
 }
 a{
     text-decoration: none;
@@ -56,11 +61,8 @@ a{
 .img1{
     position: absolute;
     top: 200px;
-    left: 1200px;
+    left: 1000px;
 }
-
-
-
 
 .img2{
     height: 500px;
